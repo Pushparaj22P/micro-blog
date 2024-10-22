@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microblog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Microblog</h1>
+        <form id="postForm">
+            <textarea id="postContent" placeholder="What's on your mind?" ></textarea>
+            <input type="file" id="postImage" accept="image/*">
+            <button type="submit">Post</button>
+        </form>
+
+        <h2>Posts:</h2>
+        <div id="postsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
